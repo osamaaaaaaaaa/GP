@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">med factory</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="specialties">
+        <item>select speciality</item>
+        <item>Dermatology</item>
+        <item>Orthopedics</item>
+        <item>Neurologists</item>
+        <item>Ophthalmology</item>
+        <item>Ear, nose and throat</item>
+        <item>Dentistry</item>
+        <item>Cardiology </item>
+        <item>Pulmonology </item>
+    </string-array>
+    <string-array name="towns">
+        <item>select area </item>
+        <item>Cairo</item>
+        <item>Alexandria</item>
+        <item>Giza</item>
+        <item>Shubra el-Khema</item>
+        <item>Port Said</item>
+        <item>Suez</item>
+        <item>El Mahalla el Kubra</item>
+    </string-array>
+</resources>

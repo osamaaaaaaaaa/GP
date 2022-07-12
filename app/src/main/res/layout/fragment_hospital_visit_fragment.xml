@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/button"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="Select Specialization"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/bt_brain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button"
+                android:drawableStart="@drawable/brain_m"
+                android:text="Neurologists" />
+
+            <Button
+                android:id="@+id/bt_eye"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button"
+                android:drawableStart="@drawable/eye_m"
+                android:text="Ophthalmology" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button"
+                android:drawableStart="@drawable/nose_ear_m"
+                android:text="Ear, nose and throat" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button"
+                android:drawableStart="@drawable/mouth_teath_m"
+                android:text="Dentistry" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button"
+                android:drawableStart="@drawable/heart_m"
+                android:text="Cardiology " />
+
+            <Button
+                android:id="@+id/button13"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button"
+                android:drawableStart="@drawable/lung_m"
+                android:text="Pulmonology" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button"
+                android:drawableStart="@drawable/bone_m"
+                android:text="Orthopedics" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button"
+                android:drawableStart="@drawable/skin_m"
+                android:text="Dermatology" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button"
+                android:drawableStart="@drawable/pregnant_woman_m"
+                android:text="Obstetrics" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button"
+                android:drawableStart="@drawable/microscope_m"
+                android:text="Button" />
+
+            <Button
+
+                android:id="@+id/button19"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button"
+                android:drawableStart="@drawable/medicines_m"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button20"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button"
+                android:drawableStart="@drawable/man_things_m"
+                android:text="Button" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
